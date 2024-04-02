@@ -16,10 +16,10 @@ variables:
   client_secret     : "CDg8Q~Hx6Gu7mM1E3-jN~u3O-1~jPjv5SyrwQb4G"
 
 stages:
-  - stage: Deploy
+  - stage: Deployment
     jobs:
-      - job: Deploy
-        displayName: 'Deploy Infrastructure to Azure'
+      - job: Deployment
+        displayName: 'Azure Deployment'
         pool:
           vmImage: 'ubuntu-latest'
         steps:
@@ -32,4 +32,4 @@ stages:
               terraform init
               terraform plan -out=tfplan
               terraform apply -auto-approve tfplan
-            displayName: 'Deploying'
+            displayName: 'Deployed'
