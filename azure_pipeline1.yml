@@ -11,9 +11,9 @@ trigger:
 
 variables:
   subscription_id   : "74f18b4b-73a2-49ee-a8b5-9e6f8c8ec835"
-  tenant_id         : "8d8d4417-60ec-4a46-ae73-5710d3caca54"
-  client_id         : "12703015-a0a4-4368-916e-0ae47e8d2dc0"
-  client_secret     : "CDg8Q~Hx6Gu7mM1E3-jN~u3O-1~jPjv5SyrwQb4G"
+  tenant_id         : "445535a9-31f3-4c74-a04b-348d3e339d24"
+  client_id         : "39de24ed-e4cc-4d52-87f0-563963da45be"
+  client_secret     : "8f8QXIKQ_iaGwEtDDsQkP1e3GT9Kx112BP2ahw"
 
 stages:
   - stage: Deployment
