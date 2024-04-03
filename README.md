@@ -47,6 +47,6 @@ Feedback and contributions are welcome! If you encounter any issues or have sugg
 ![Example Image](snip4.png)
 ![Example Image](snip5.png)
 ![Example Image](snip6.png)
-![Example Image](snip7.png)
+![Example Image](snip7.jpg)
 
 
